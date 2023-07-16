@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.back-body{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.left{
+    flex: 1;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size: cover;
+}
+
+.right{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.minp{
+    font-size: small;
+    color: grey;
+}
+
+.rh3{
+    font-size: 1.6rem;
+    font-family: Fraunces;
+    font-weight: 700;
+}
+
+.rp1{
+    font-size: small;
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price h3{
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    font-size: 24px;
+}
+
+.price strike{
+    font-size: 14px;
+}
+
+.button{
+    padding: 15px 0px;
+    padding-right: 20%;
+}
+
+.button-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+}
